@@ -1,0 +1,1 @@
+JavaScript fundamentals, practice exercises, mini projects and interview preparation.
