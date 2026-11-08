@@ -199,3 +199,41 @@ multiply(2,3);
 
 const addition = (a, b) => a + b;
 console.log(addition(9,4));
+                /*****************************************************************************************************/
+                /*****************************************************************************************************/
+                /*****************************************************************************************************/
+                /*****************************************************************************************************/
+                /*****************************************************************************************************/
+
+
+//getting an item from HTML to add functionality to it
+    const inputBox = document.getElementById("input-box"); // here input-box is the id name of the input 
+//creating a new element for HTML 
+    const li = document.createElement("li"); //inside add whatever type of HTML item to be created like "li", "div", "p" etc
+//span : adds items in the same line as a text without breaking anything. creating a span directly in js:
+        let span = document.createElement("span");
+//getting values
+    li.HTML = inputBox.value;
+//sending something back to be displayed in html/frontend from js:
+    element.appendChild(pass-the-item-to-be-shown)
+//eg:
+    inputBox.appendChild(li)
+
+// addEventListener() is a built-in method used to make your webpage interactive by listening
+// for specific user actions (events) and running a function when they happen.
+// Instead of writing events directly inside your HTML (like onclick=""), 
+// addEventListener() lets you keep all your interactivity safely inside your JavaScript file.
+    element.addEventListener("event_name", function_to_run); 
+// event name e.g., "click", "keyup", "submit" etc.
+//button click eg:
+    const addBtn = document.getElementById("submit-btn");
+    addBtn.addEventListener("click", addItem); //Writing addItem() would run the function instantly when the page loads, rather than waiting for the click.
+//instant with arrow functions
+    const deleteBtn = document.getElementById("delete-btn");
+
+    deleteBtn.addEventListener("click", () => {
+        alert("Item deleted!");
+    });
+
+    
+
