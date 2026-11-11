@@ -6,7 +6,7 @@ function addItem(){
         alert('Add the text!')
     } else{
         const li = document.createElement("li")
-        li.innerHTML = inputBox.value;
+        li.textContent = inputBox.value;
         listContainer.appendChild(li);
         let span = document.createElement("span");
         span.innerHTML = "\u00d7";
@@ -16,6 +16,7 @@ function addItem(){
     inputBox.value = "";
     saveData();
 }
+
 
 // Listen for any click anywhere inside the entire list section. When a click happens, give me the click details as e
 listContainer.addEventListener("click", function(e){
